@@ -205,7 +205,7 @@ Anet A8 print awesome results.
 
 **6: Print the Calibration Cube**
 
-<img src="./photos/calibration-cube.jpg" align="right" width="300px">
+<img src="./photos/calibration-cube.jpg" align="right" width="100px" height="100px">
 
 Now it's time to test your settings. Make sure the printer
 is ready, has its filament, is correctly leveled and ready
