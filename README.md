@@ -53,6 +53,7 @@ The [printing quality troubleshooting guide](./instructions/quality-troubleshoot
 is also available in case some prints are deformed or broken.
 
 
+----------
 
 **1: Belt Tensioners, Belt Holders, GT2 Belts and Z-Wobble Fixes**
 
@@ -75,6 +76,7 @@ to buy a GT2 belt set, so that you have bigger cog wheels
 that you can use for the bowden extruder upgrade :)
 
 
+----------
 
 **2: Glass Plate with Clip Holders**
 
@@ -97,6 +99,7 @@ it solves. So just stick with the glue stick and
 everything is fine, cheap and will work perfectly.
 
 
+----------
 
 **3: Level the Heatbed**
 
@@ -112,6 +115,7 @@ the print quality. It's seriously important to be done
 right.
 
 
+----------
 
 **4: Download and Install Cura Software**
 
@@ -125,6 +129,7 @@ from the ultimaker website. (Seriously, it even doesn't work
 on Arch)
 
 
+----------
 
 **5: Setup Cura Software**
 
@@ -196,6 +201,7 @@ It will lead to the correct settings that you need to make the
 Anet A8 print awesome results.
 
 
+----------
 
 **6: Print the Calibration Cube**
 
@@ -214,6 +220,7 @@ does not look like in the picture, you probably have a not
 correctly leveled heatbed and you should re-level it.
 
 
+----------
 
 **7: Upgrade the Spool Holder**
 
@@ -227,6 +234,7 @@ extruder than is necessary.
 - Print the [spool holder nut](./parts/spool-holder/spool-holder-nut.stl) 1 time.
 
 
+----------
 
 **8: Upgrade to Bowden Extruder**
 
@@ -271,6 +279,7 @@ You can use the ones that came with the GT2 belt set that you
 bought in step 1.
 
 
+----------
 
 **9: Upgrade the Y-Cable Chain**
 
@@ -288,6 +297,7 @@ The Y-Cable Chain requires 14 chain links, which means you
 will have 2 spare parts.
 
 
+----------
 
 **10: Upgrade Frame Braces**
 
