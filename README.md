@@ -11,6 +11,23 @@ Hopefully this guide can help others upgrading their
 Anet A8 and ease up the process.
 
 
+
+## TL;DR Parts List
+
+This is the third-party parts list that you will
+need to buy to do all upgrades explained below
+
+- 2mm/4mm PTFE (teflon) tube (min. 50cm length)
+- 2.5mm GT2 timing belts (min. 200cm length)
+- 2x 4mm pneumatic adapter (tube feed)
+
+Note: The PTFE tube needs to have inner diameter
+of 2mm and outer diameter of 4mm. If you want to
+use bigger filament diameters, change the pneumatic
+adapter sizes accordingly.
+
+
+
 ## Step-By-Step Guide
 
 This Guide can be followed after you've already
@@ -27,16 +44,17 @@ The mainboard's schematics are also available at
 [this picture](./instructions/mainboard.jpg).
 
 **IMPORTANT**: The connectors for the power cables
-of the heatbed and extruder are of not-so-good quality,
-it is important that you connect the cables with some
-space to the insulation. Otherwise your cable insulation
-will overheat and burn down.
+of the heatbed and extruder on the mainboard are of bad
+quality, it is important that you connect the cables with
+some space to the insulation. Otherwise your cable
+insulation will overheat and burn down.
 
 The [printing quality troubleshooting guide](./instructions/quality-troubleshooting-guide.pdf)
 is also available in case some prints are deformed or broken.
 
 
-**1: Install Belt Tensioners, Belt Holders and Z-Wobble Fixes**
+
+**1: Belt Tensioners, Belt Holders, GT2 Belts and Z-Wobble Fixes**
 
 If you can't use another printer, print these parts and
 immediately upgrade the Anet A8 afterwards, so that later
@@ -48,23 +66,37 @@ prints will have a better quality.
 - Print the y-belt [tensioner](./parts/belt-tensioners/y-tensioner.stl), [plate](./parts/belt-tensioners/y-plate.stl), [screw](./parts/belt-tensioners/y-screw.stl) each 1 time.
 - Print the [z-wobble fix](./parts/z-wobble/z-wobblefix.stl) 1 time and the [t-corner](./parts/z-wobble/t-corner.stl) 2 times.
 
-Install the belt tensioners, the belt holders, the
-t-corners and the z-wobble fixes on your Anet A8 printer.
+Install the belt tensioners, the belt holders, the t-corners
+and the z-wobble fixes on your Anet A8 printer.
+
+Make sure to use proper fiber-rubber GT2 belts, not the
+plastic OEM ones that came with the printer. It is best
+to buy a GT2 belt set, so that you have bigger cog wheels
+that you can use for the bowden extruder upgrade :)
 
 
-**2: Install a Glass Plate with Clip Holders**
+
+**2: Glass Plate with Clip Holders**
+
+<img src="./photos/glass-plate.jpg" align="right" width="300px">
 
 (Recommended) Install a glass plate with clip holders,
 so that you don't have to use that shitty print tape.
+
 Install the clip holders so that they don't conflict
 with the `0/0/0` (Home All) position of the extruder.
 
-See [this photo]() on how the glass plate should look
-like once installed.
+When using a glass plate, it is recommended to use a
+simple glue stick to make things sticky and to print
+on it as the glass plate itself is too slick for the
+initial layers of PLA or ABS.
 
-Don't forget to increase the `heatbed temperature` later
-in the Cura software to `70 deg Celcius`, as the glass
-plate will be a bit colder than the original alu plate.
+Some other people often recommend to increase the
+temperature, but this will cause more problems than
+it solves. So just stick with the glue stick and
+everything is fine, cheap and will work perfectly.
+
+
 
 **3: Level the Heatbed**
 
@@ -80,6 +112,7 @@ the print quality. It's seriously important to be done
 right.
 
 
+
 **4: Download and Install Cura Software**
 
 The Cura software that comes with the USB Stick (or microSD
@@ -90,6 +123,7 @@ Important Note for Linux users: Pretty much all packaged
 builds are totally broken, use the self-executing AppImage
 from the ultimaker website. (Seriously, it even doesn't work
 on Arch)
+
 
 
 **5: Setup Cura Software**
@@ -161,12 +195,9 @@ import [this cura profile](./profiles/normal_quality.curaprofile).
 It will lead to the correct settings that you need to make the
 Anet A8 print awesome results.
 
-You can use the recommended settings of Cura, so it's easier
-for you to print stuff. BUT always double-check the heatbed
-temperature in case you upgraded it with the glass plate.
 
 
-**X: Print the Calibration Cube**
+**6: Print the Calibration Cube**
 
 <img src="./photos/calibration-cube.jpg" align="right" width="300px">
 
@@ -183,7 +214,65 @@ does not look like in the picture, you probably have a not
 correctly leveled heatbed and you should re-level it.
 
 
-**4: Upgrade the Y-Cable Chain**
+
+**7: Upgrade the Spool Holder**
+
+<img src="./photos/spool-holder.jpg" align="right" width="300px">
+
+The OEM spool holder kinda sucks and does not work well
+with a bowden setup due to causing more stress on the bowden
+extruder than is necessary.
+
+- Print the [spool holder bolt](./parts/spool-holder/spool-holder-bolt.stl) 1 time.
+- Print the [spool holder nut](./parts/spool-holder/spool-holder-nut.stl) 1 time.
+
+
+
+**8: Upgrade to Bowden Extruder**
+
+<img src="./photos/bowden-motor.jpg" align="right" width="300px">
+
+<img src="./photos/bowden-extruder.jpg" align="right" width="300px">
+
+The standard Anet A8 setup comes with an extruder motor
+mounted directly above the extruder. This causes more
+weight on the X-axis that has to be moved by the X-axis
+motor and belt.
+
+The bowden extruder upgrade allows the extruder motor to be
+moved atop the frame, so that it both stabilizes the frame and
+allows the filament to be fed through a PTFE (teflon) tube.
+
+- Print the [motor block](./parts/bowden-extruder/motor-block.stl) part 1 time.
+- Print the [motor mount](./parts/bowden-extruder/motor-mount.stl) 1 time.
+- Print the [pneumatic adapter](./parts/bowden-extruder/pneumatic-adapter.stl) 2 times (1 replacement part, you will need it).
+
+Install the motor parts as in the photo above, do the same for
+the extruder. It is necessary to have the PTFE tube and the
+pneumatic tube feeds available.
+
+Mount the extruder motor on the top left of the printer's frame,
+so that the PTFE tube-side points to the front-left direction.
+
+Make sure that the cables and the PTFE tube don't conflict in
+the whole movement area of the X-carriage.
+
+Your printer should now look like this:
+
+![printer-front](./photos/printer-front.jpg)
+
+
+
+Important: The extruder motor will probably require a bigger
+cog wheel, because the OEM one is a little too small to feed
+the filament properly.
+
+You can use the ones that came with the GT2 belt set that you
+bought in step 1.
+
+
+
+**9: Upgrade the Y-Cable Chain**
 
 The Y-Cables are a mess. No matter how you position the
 cables, they are always laid out suboptimal.
@@ -199,15 +288,8 @@ The Y-Cable Chain requires 14 chain links, which means you
 will have 2 spare parts.
 
 
-**5: Upgrade the X-Cable Chain**
 
-(This will be added once I upgraded my X-Cable Chain successfully)
-
-The X-Cable Chain requires 16 chain links, which means you
-will have no spare parts.
-
-
-**6: Upgrade Frame Braces**
+**10: Upgrade Frame Braces**
 
 Under heavy load the frame of the Anet A8 could potentially
 crack the acryl plates. But don't worry, there's a fix for
@@ -216,6 +298,7 @@ that.
 - Print out the [rear frame](./parts/frame-braces/frame-rear.stl) 1 time.
 
 Install the rear frame.
+
 
 
 ## Problems / Suggestions?
