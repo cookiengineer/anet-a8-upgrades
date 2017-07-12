@@ -224,7 +224,7 @@ correctly leveled heatbed and you should re-level it.
 
 **7: Upgrade the Spool Holder**
 
-<img src="./photos/spool-holder.jpg" align="right" width="300px">
+<img src="./photos/spool-holder.jpg" align="right" width="128px">
 
 The OEM spool holder kinda sucks and does not work well
 with a bowden setup due to causing more stress on the bowden
@@ -233,14 +233,18 @@ extruder than is necessary.
 - Print the [spool holder bolt](./parts/spool-holder/spool-holder-bolt.stl) 1 time.
 - Print the [spool holder nut](./parts/spool-holder/spool-holder-nut.stl) 1 time.
 
+Install the spool holder afterwards. Make sure that the feeding
+of the extruder motor is not hindered by other parts that are in
+the way and that the filament is a straight line between spool
+holder and the extruder motor.
 
 ----------
 
 **8: Upgrade to Bowden Extruder**
 
-<img src="./photos/bowden-motor.jpg" align="right" width="300px">
+<img src="./photos/bowden-motor.jpg" align="right" width="128px">
 
-<img src="./photos/bowden-extruder.jpg" align="right" width="300px">
+<img src="./photos/bowden-extruder.jpg" align="right" width="128px">
 
 The standard Anet A8 setup comes with an extruder motor
 mounted directly above the extruder. This causes more
