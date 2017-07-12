@@ -20,12 +20,18 @@ need to buy to do all upgrades explained below
 - 2mm/4mm PTFE (teflon) tube (min. 50cm length)
 - 2.5mm GT2 timing belts (min. 200cm length)
 - 2x 4mm pneumatic adapter (tube feed)
+- 2x NEMA 17 stepper motors
 
 Note: The PTFE tube needs to have inner diameter
 of 2mm and outer diameter of 4mm. If you want to
 use bigger filament diameters, change the pneumatic
 adapter sizes accordingly.
 
+Important: The Z-Axis stepper motors should be
+replaced with stronger 17-ones, as many users
+(including me) had troubles with a stuck Z-axis
+motor driver that was too weak to liften the
+X-carriage.
 
 
 ## Step-By-Step Guide
@@ -117,7 +123,34 @@ right.
 
 ----------
 
-**4: Download and Install Cura Software**
+**4: Replace Z-Axis Stepper Motors**
+
+The OEM stepper motors are NEMA14 ones and are too weak
+to liften the X-carriage. In my case, they broke down
+around 10 hours after printing, typical symptom is that
+the Z-axis motors make a "loud shredding noise" and/or
+only one is reacting because the Z-motor driver on the
+mainboard already broke down.
+
+To avoid this, it is heavily recommended to replace the
+NEMA14 Z-axis stepper motors with NEMA17 ones. They fit,
+as the Anet A8 was initially designed for NEMA17 motors.
+
+Wiring-wise it is actually a lot of fiddle work. For me
+the wiring was blue/black cross-paired and the outer two
+wires being normally connected.
+
+You have to try this out yourself, as every stepper
+motor is differently wired and every stepper cable seems
+to have different colors for each cable pair.
+
+It takes a while, so grab a cup of camilla tea and stay
+calm while doing it.
+
+
+----------
+
+**5: Download and Setup Cura Software**
 
 The Cura software that comes with the USB Stick (or microSD
 card) is outdated. Install the newest stable one from
@@ -127,11 +160,6 @@ Important Note for Linux users: Pretty much all packaged
 builds are totally broken, use the self-executing AppImage
 from the ultimaker website. (Seriously, it even doesn't work
 on Arch)
-
-
-----------
-
-**5: Setup Cura Software**
 
 Start the Cura software, add a new printer (which is the
 welcome dialog on first start).
