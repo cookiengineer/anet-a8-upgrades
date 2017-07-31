@@ -313,7 +313,34 @@ bought in step 1.
 
 ----------
 
-**9: Upgrade the Y-Cable Chain**
+**9: Upgrade Z-Endstop**
+
+<img src="./photos/z-endstop.jpg" align="right" width="128px">
+
+The Z-Endstop sucks hard. That's the truth, but there's a way
+around it. The better endstop is adjustable, so that no matter
+how your heatbed looks like, you can simply adjust one screw
+without having to always recalibrate the endstop itself.
+
+- Print the [endstop mount](./parts/z-endstop/endstop_mount.stl) 1 time.
+- Print the [endstop holder](./parts/z-endstop/endstop_holder.stl) 1 time.
+- Print the [endstop cap](./parts/z-endstop/endstop_cap.stl) 1 time.
+
+Install the Z-Endstop afterwards. If you reset the position to
+"Home All" in the printer's firmware menu, you can listen to the
+sound of the endstop.
+
+It has to be mounted in a way that it's directly clicking and in
+the "Off" position when you move the Z-Endstop adjustment screw
+by around 30deg.
+
+Use a couple of M3 washers to adjust the distance, so that the
+cap is able to hit the endstop correctly.
+
+
+----------
+
+**10: Upgrade the Y-Cable Chain**
 
 The Y-Cables are a mess. No matter how you position the
 cables, they are always laid out suboptimal.
@@ -331,15 +358,25 @@ will have 2 spare parts.
 
 ----------
 
-**10: Upgrade Frame Braces**
+**11: Upgrade Frame Braces**
 
 Under heavy load the frame of the Anet A8 could potentially
 crack the acryl plates. But don't worry, there's a fix for
 that.
 
-- Print out the [rear frame](./parts/frame-braces/frame-rear.stl) 1 time.
+If you have placed the Anet A8 on a wooden plate, it is also
+better to mount it using the threaded frame holders.
 
-Install the rear frame.
+- Print out the [rear frame](./parts/frame-braces/frame-rear.stl) 1 time.
+- Print out the [threaded frame holder](./parts/frame-braces/frame-holder.stl) 6 times.
+
+Install the rear frame and the threaded frame holders. The
+frame holders are best mounted on each side of the acryl
+frame, so that the acryl frame has less stress on it
+afterwards.
+
+Use wood screws to mount the frame holders and at least M4
+screws to mount the rear frame.
 
 
 
