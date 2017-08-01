@@ -381,6 +381,15 @@ screws to mount the rear frame.
 
 
 
+## Firmwares
+
+Currently I run the stock OEM Anet A8 mainboard and the stock
+firmware with my Bowden setup. This works perfectly so far,
+but in case I switch to RAMPS in future, I put the firmware
+in the [./firmwares](./firmwares) folder.
+
+
+
 ## Problems / Suggestions?
 
 If you have suggestions or problems of any kind; feel free
