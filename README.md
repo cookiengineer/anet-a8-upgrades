@@ -286,6 +286,7 @@ allows the filament to be fed through a PTFE (teflon) tube.
 - Print the [motor block](./parts/bowden-extruder/motor-block.stl) part 1 time.
 - Print the [motor mount](./parts/bowden-extruder/motor-mount.stl) 1 time.
 - Print the [pneumatic adapter](./parts/bowden-extruder/pneumatic-adapter.stl) 2 times (1 replacement part, you will need it).
+- Print the [extruder button](./parts/bowden-extruder/extruder-button.stl) 1 time.
 
 Install the motor parts as in the photo above, do the same for
 the extruder. It is necessary to have the PTFE tube and the
