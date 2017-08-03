@@ -380,6 +380,13 @@ Use wood screws to mount the frame holders and at least M4
 screws to mount the rear frame.
 
 
+**XX: X-Axis Rework**
+
+This is currently work-in-progress. The X-Axis rework can
+be found in the [./parts/x-axis](./parts/x-axis) folder and
+it contains a modified X-motor mount with the integrated
+adjustable Z-endstop and adjustable X-tensioner.
+
 
 ## Firmwares
 
