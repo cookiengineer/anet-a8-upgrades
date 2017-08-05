@@ -63,6 +63,8 @@ is also available in case some prints are deformed or broken.
 
 **1: Belt Tensioners, Belt Holders, GT2 Belts and Z-Wobble Fixes**
 
+<img src="./photos/y-tensioner.jpg" align="right" width="128px">
+
 If you can't use another printer, print these parts and
 immediately upgrade the Anet A8 afterwards, so that later
 prints will have a better quality.
@@ -70,7 +72,7 @@ prints will have a better quality.
 - Print the [x-belt holder](./parts/belt-holders/x-belt_holder.stl) 1 time.
 - Print the y-belt holder [top](./parts/belt-holders/y-belt_holder-top.stl) and [bottom](./parts/belt-holders/y-belt_holder-bottom.stl) each 1 time.
 - Print the [x-belt tensioner](./parts/belt-tensioners/x-tensioner.stl) 1 time.
-- Print the y-belt [tensioner](./parts/belt-tensioners/y-tensioner.stl), [plate](./parts/belt-tensioners/y-plate.stl), [screw](./parts/belt-tensioners/y-screw.stl) each 1 time.
+- Print the y-belt [tensioner](./parts/belt-tensioners/y-tensioner.stl), [adapter](./parts/belt-tensioners/y-tensioner-adapter.stl) and [holder](./parts/belt-tensioners/y-tensioner-holder.stl) each 1 time.
 - Print the [z-wobble fix](./parts/z-wobble/z-wobblefix.stl) 1 time and the [t-corner](./parts/z-wobble/t-corner.stl) 2 times.
 
 Install the belt tensioners, the belt holders, the t-corners
