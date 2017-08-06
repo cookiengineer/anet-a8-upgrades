@@ -63,7 +63,11 @@ is also available in case some prints are deformed or broken.
 
 **1: Belt Tensioners, Belt Holders, GT2 Belts and Z-Wobble Fixes**
 
+<img src="./photos/x-tensioner.jpg" align="right" width="128px">
+
 <img src="./photos/y-tensioner.jpg" align="right" width="128px">
+
+<img src="./photos/z-wobblefix.jpg" align="right" width="128px">
 
 If you can't use another printer, print these parts and
 immediately upgrade the Anet A8 afterwards, so that later
