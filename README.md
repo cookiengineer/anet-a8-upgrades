@@ -88,7 +88,7 @@ that you can use for the bowden extruder upgrade :)
 
 **2: Glass Plate with Clip Holders**
 
-<img src="./photos/glass-plate.jpg" align="right" width="300px">
+<img src="./photos/glass-plate.jpg" align="right" width="320px">
 
 (Recommended) Install a glass plate with clip holders,
 so that you don't have to use that shitty print tape.
@@ -343,20 +343,24 @@ cap is able to hit the endstop correctly.
 
 ----------
 
-**10: Upgrade the Y-Cable Chain**
+**10: Fix the Heatbed Cable Connector**
 
-The Y-Cables are a mess. No matter how you position the
-cables, they are always laid out suboptimal.
+Apparently most people build up the Anet A8 / Prusa i3 printer
+by mounting the heatbed in a way that the cables of the heatbed
+lead to the side and not to the back.
 
-- Print the [chain links](./parts/y-chain/chain_x4.stl) 4 times.
-- Print the [frame mount](./parts/y-chain/frame_mount.stl) 1 time.
-- Print the [frame mount](./parts/y-chain/hotbed_mount.stl) 1 time.
+At first glimpse the Y-Cable Chain is a well-thought fix for
+having nice clean cables. Turns out out that this causes a
+burned cable connector because of too much stress.
 
-Install the Y-Cable Chain afterwards. Make sure the chain
-parts are flexible and don't slow down the Y-stepper motor.
+![heatbed-solder](./photos/heatbed-solder.jpg)
 
-The Y-Cable Chain requires 14 chain links, which means you
-will have 2 spare parts.
+It is recommended to re-solder the heatbed, and to mount the
+heatbed in a way that the cables lead to the back, and NOT to
+the side - so that the cables and soldered connections don't
+have too much stress on them.
+
+![heatbed-wiring](./photos/heatbed-wiring.jpg)
 
 
 ----------
@@ -388,6 +392,9 @@ This is currently work-in-progress. The X-Axis rework can
 be found in the [./parts/x-axis](./parts/x-axis) folder and
 it contains a modified X-motor mount with the integrated
 adjustable Z-endstop and adjustable X-tensioner.
+
+When this reworked X-Axis proves stable, I will replace the
+previous steps accordingly.
 
 
 ## Firmwares
