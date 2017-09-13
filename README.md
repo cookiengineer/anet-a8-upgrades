@@ -236,6 +236,10 @@ import [this cura profile](./profiles/normal_quality.curaprofile).
 It will lead to the correct settings that you need to make the
 Anet A8 print awesome results.
 
+You can verify that your Anet A8 machine is correctly set up by
+comparing the [machine\_instances](./profiles/machine_instances)
+folder with the one located at `~/.local/share/cura/machine_instances`.
+
 
 ----------
 
