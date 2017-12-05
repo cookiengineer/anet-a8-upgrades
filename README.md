@@ -372,9 +372,9 @@ have too much stress on them.
 
 ![heatbed-wiring](./photos/heatbed-wiring.jpg)
 
-<img src="./photos/heatbed-solder-procedure-01.jpg" align="right" width="128px">
-<img src="./photos/heatbed-solder-procedure-02.jpg" align="right" width="128px">
 <img src="./photos/heatbed-solder-procedure-03.jpg" align="right" width="128px">
+<img src="./photos/heatbed-solder-procedure-02.jpg" align="right" width="128px">
+<img src="./photos/heatbed-solder-procedure-01.jpg" align="right" width="128px">
 
 At first your heatbed will stop working, and the heat will stop at the connector, eventually leading to a burnt connector or worse - [it's a fire hazard](http://forums.reprap.org/read.php?392,493405).
 The procedure is fairly simple, even if you are new to soldering. Just be patient and remove any excess solder you may use.
@@ -382,8 +382,8 @@ If the old solder doesn't come off, put a bit of new solder on it and it will me
 
 You can try removing the wires and pulling the connector with pliers, it will come off with a bit of force. If you desolder and remove the outer pins you can still use a piece of the original connector - cut to fit - for the thermistor.
 
-<img src="./photos/heatbed-solder-procedure-04.jpg" align="right" width="128px">
 <img src="./photos/heatbed-solder-procedure-05.jpg" align="right" width="128px">
+<img src="./photos/heatbed-solder-procedure-04.jpg" align="right" width="128px">
 
 You should use an higher-gauge wire to connect the heatbed, the one that comes with the printer is too thin to carry the 10A used by the bed. A thicker cable means that the wire will stay colder when transferring current.
 
