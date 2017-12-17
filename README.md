@@ -20,6 +20,8 @@ need to buy to do all upgrades explained below
 - 2mm/4mm PTFE (teflon) tube (min. 50cm length)
 - 2.5mm GT2 timing belts (min. 200cm length)
 - 2x 4mm pneumatic adapter (tube feed)
+- 2x M5x30 screws
+- 2x M5 self-sealing nuts
 - 2x NEMA 17 stepper motors
 
 Note: The PTFE tube needs to have inner diameter
@@ -83,6 +85,10 @@ prints will have a better quality.
 
 Install the belt tensioners, the belt holders, the t-corners
 and the z-wobble fixes on your Anet A8 printer.
+
+Note that the x-tensioner requires 2 M5x35 screws and
+matching self-sealing nuts. The screws are pushing the
+belt tensioner away from the X-rods.
 
 Make sure to use proper fiber-rubber GT2 belts, not the
 plastic OEM ones that came with the printer. It is best
