@@ -310,6 +310,14 @@ Install the motor parts as in the photo above, do the same for
 the extruder. It is necessary to have the PTFE tube and the
 pneumatic tube feeds available.
 
+An important note here is that PTFE tube feeds have inch measurements,
+not metric ones (as it's pneumatic hardware). So it is important to
+buy a 3/8" tube feed (~9.51mm), as M10 (~10.18mm) would be too big to
+fit the adapter. If you have an M6 thread cutter, it is recommended
+to use it for the smaller side of the pneumatic adapter, so that less
+stress is on the PLA (or ABS) material when being screwed into the
+metal motor block on the X-carriage.
+
 Mount the extruder motor on the top left of the printer's frame,
 so that the PTFE tube-side points to the front-left direction.
 
