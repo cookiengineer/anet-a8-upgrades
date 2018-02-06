@@ -81,8 +81,8 @@ Suggested print settings:
 
 90% honeycomb infill for all prints.
 
-0.12 mm layer height for x-belt holder and z wobble.
-0.2 mm layer height for the rest.
+* 0.12 mm layer height for x-belt holder and z wobble.
+* 0.2 mm layer height for the rest.
 
 - Print the [x-belt holder](./parts/belt-holders/x-belt_holder.stl) 1 time. 
 - Print the y-belt holder [top](./parts/belt-holders/y-belt_holder-top.stl) and [bottom](./parts/belt-holders/y-belt_holder-bottom.stl) each 1 time. Su
