@@ -77,8 +77,15 @@ If you can't use another printer, print these parts and
 immediately upgrade the Anet A8 afterwards, so that later
 prints will have a better quality.
 
-- Print the [x-belt holder](./parts/belt-holders/x-belt_holder.stl) 1 time.
-- Print the y-belt holder [top](./parts/belt-holders/y-belt_holder-top.stl) and [bottom](./parts/belt-holders/y-belt_holder-bottom.stl) each 1 time.
+Suggested print settings:
+
+90% honeycomb infill for all prints.
+
+* 0.12 mm layer height for x-belt holder and z wobble.
+* 0.2 mm layer height for the rest.
+
+- Print the [x-belt holder](./parts/belt-holders/x-belt_holder.stl) 1 time. 
+- Print the y-belt holder [top](./parts/belt-holders/y-belt_holder-top.stl) and [bottom](./parts/belt-holders/y-belt_holder-bottom.stl) each 1 time. Su
 - Print the [x-belt tensioner](./parts/belt-tensioners/x-tensioner.stl) 1 time.
 - Print the y-belt [tensioner](./parts/belt-tensioners/y-tensioner.stl), [adapter](./parts/belt-tensioners/y-tensioner-adapter.stl) and [holder](./parts/belt-tensioners/y-tensioner-holder.stl) each 1 time.
 - Print the [z-wobble fix](./parts/z-wobble/z-wobblefix.stl) 1 time and the [t-corner](./parts/z-wobble/t-corner.stl) 2 times.
@@ -139,16 +146,17 @@ right.
 
 **4: Replace Z-Axis Stepper Motors**
 
-The OEM stepper motors are NEMA14 ones and are too weak
-to liften the X-carriage. In my case, they broke down
-around 10 hours after printing, typical symptom is that
-the Z-axis motors make a "loud shredding noise" and/or
-only one is reacting because the Z-motor driver on the
-mainboard already broke down.
+The OEM stepper motors are too weak to properly lift
+the X-carriage. In my case, they broke down around 10 
+hours after printing, typical symptom is thatthe Z-axis 
+motors make a "loud shredding noise" and/oronly one is 
+reacting because the Z-motor driver on themainboard 
+already broke down.
 
 To avoid this, it is heavily recommended to replace the
-NEMA14 Z-axis stepper motors with NEMA17 ones. They fit,
-as the Anet A8 was initially designed for NEMA17 motors.
+Z-axis motors with larger ones. I suggest 48 mm NEMA 17
+motors, as they are quite a bit larger than the OEM ones
+but still fit well inside the frame.
 
 Wiring-wise it is actually a lot of fiddle work. For me
 the wiring was blue/black cross-paired and the outer two
