@@ -159,7 +159,7 @@ motors, as they are quite a bit larger than the OEM ones
 but still fit well inside the frame.
 
 There is a list of commonly used NEMA 17 motors available
-from [reprap wiki](http://reprap.org/wiki/NEMA_17_Stepper_motor).
+from the [reprap wiki](http://reprap.org/wiki/NEMA_17_Stepper_motor).
 
 Wiring-wise it is actually a lot of fiddle work. For me
 the wiring was blue/black cross-paired and the outer two
