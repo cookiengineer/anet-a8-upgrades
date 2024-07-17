@@ -32,7 +32,7 @@ adapter sizes accordingly.
 Important: The Z-Axis stepper motors should be
 replaced with stronger 17-ones, as many users
 (including me) had troubles with a stuck Z-axis
-motor driver that was too weak to liften the
+motor driver that was too weak to lift the
 X-carriage.
 
 
@@ -150,8 +150,8 @@ right.
 The OEM stepper motors are too weak to properly lift
 the X-carriage. In my case, they broke down around 10 
 hours after printing, typical symptom is thatthe Z-axis 
-motors make a "loud shredding noise" and/oronly one is 
-reacting because the Z-motor driver on themainboard 
+motors make a "loud shredding noise" and/or only one is 
+reacting because the Z-motor driver on the main board 
 already broke down.
 
 To avoid this, it is heavily recommended to replace the
